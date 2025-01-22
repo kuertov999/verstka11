@@ -37,7 +37,7 @@
     </form>
 
     <div class="mt-3">
-        <a href="{{ route('register') }}">Зарегистрироваться</a>
+        <a href="{{ route('register') }}">Еще не зарегистрированы?</a>
     </div>
 </div>
 </body>

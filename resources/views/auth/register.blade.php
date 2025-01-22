@@ -14,7 +14,7 @@
         @csrf
 
         <div class="form-group">
-            <label for="login">Логин</label>
+            <label for="login">Фамилия</label>
             <input id="login" type="text" class="form-control" name="login" required autofocus>
         </div>
 
@@ -24,27 +24,27 @@
         </div>
 
         <div class="form-group">
-            <label for="fio">ФИО</label>
+            <label for="fio">Отчество</label>
             <input id="fio" type="text" class="form-control" name="fio" required>
         </div>
 
         <div class="form-group">
-            <label for="phone">Телефон</label>
+            <label for="phone">Логин</label>
             <input id="phone" type="text" class="form-control" name="phone">
         </div>
 
         <div class="form-group">
-            <label for="email">Email</label>
+            <label for="email">Телефон</label>
             <input id="email" type="email" class="form-control" name="email" required>
         </div>
 
         <div class="form-group">
-            <label for="password">Пароль</label>
+            <label for="password">Почта</label>
             <input id="password" type="password" class="form-control" name="password" required>
         </div>
 
         <div class="form-group">
-            <label for="password-confirm">Подтверждение пароля</label>
+            <label for="password-confirm">Пароль</label>
             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
         </div>
 
